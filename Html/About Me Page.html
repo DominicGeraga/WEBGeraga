@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doms' Art Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%; /* Ensure the body takes full height */
+      margin: 0;
+      display: flex;
+      flex-direction: column; /* Stack content vertically */
+      margin-bottom: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #141414, #25170C, #431D00);
+      color: white;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: #161413;
+      height: 45px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .logo {
+      width: 50px; 
+      height: auto;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 450;
+      font-style: normal;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .logo {
+      width: 50px; 
+      height: auto;
+    }
+
+    .Image {
+      position: absolute;
+      right: 0px;
+    }
+
+    .shadow-picture {
+      position: fixed;
+      top: 0px;
+      z-index: -1;
+      opacity: 80%;
+    }
+
+    .ABOUT {
+      position: absolute;
+      top: 100px;
+      left: 112px;
+      line-height: 1.5;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+    .ABOUT_desc {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .EDUCATION {
+      position: absolute;
+      top: 500px;
+      left: 112px;
+      line-height: 1.5;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .EDUCATION_desc {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .SKILLS {
+      position: absolute;
+      top: 980px;
+      left: 112px;
+      line-height: 1.5;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .SKILLS_desc {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .JOURNEY {
+      position: absolute;
+      top: 1500px;
+      left: 112px;
+      line-height: 1.5;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .JOURNEY_desc {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #161413;
+      color: white;
+      text-align: center;
+      font-size: 14px;
+      padding: 10px 0;
+      border-top: 1px solid #555; /* Subtle top border */
+      position: relative;
+      width: 100%;
+      flex-shrink: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../Images/About Me Page/Domsdraw logo.png" alt="Logo" style="width: 70px; height: 75px;">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Home Page.html" style="color: white; text-decoration: none;">Home</a></li>
+        <li><a href="About Me Page.html" style="color: white; text-decoration: none;">About</a></li>
+        <li><a href="Artworks Page.php" style="color: white; text-decoration: none;">Artworks</a></li>
+        <li><a href="Pricing Page.html" style="color: white; text-decoration: none;">Pricing</a></li>
+        <li><a href="Contacts Page.html" style="color: white; text-decoration: none;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+      <div class="content">
+          <div class="Image">
+            <img src="../Images/About Me Page/Untitled design (22).png" alt="Image" style="width: 680px; height: 1880px;">
+          </div>
+
+          <div class="ABOUT">
+            <h1 style="font-size: 50px;">ABOUT ME</h1>
+            <div class="ABOUT_desc">
+              <p style="font-size: 24px;">I’m Dominic B. Geraga, a 22-year-old <br>traditional artist and multimedia student <br>based in Pagadian City, Zamboanga del Sur, 
+              <br>Philippines. I specialize in charcoal, <br>graphite, and mixed media art, with a <br>focus on creating detailed portraits and <br>nature-inspired works.</p>
+            </div>
+          </div>
+
+          <div class="EDUCATION">
+            <h1 style="font-size: 50px;">EDUCATION</h1>
+            <div class="EDUCATION_desc">
+              <p style="font-size: 24px;">Currently, I’m pursuing my degree in <br>Multimedia Studies at Northwestern <br>Mindanao State University. My academic <br>background 
+                complements my artistic <br>endeavors, helping me explore new ways to <br>merge traditional art with modern <br>techniques and tools.</p>
+            </div>
+          </div>
+
+          <div class="SKILLS">
+            <h1 style="font-size: 50px;">SKILLS AND EXPERTISE</h1>
+            <div class="SKILLS_desc">
+              <p style="font-size: 24px;">• Charcoal and graphite art techniques
+                <br>• Mixed media creations on toned paper
+                <br>• Proficiency in using high-quality <br>   materials like Strathmore paper and <br>   Faber-Castell tools
+                <br>• Realistic and expressive portrait art</p>
+            </div>
+          </div>
+
+          <div class="JOURNEY">
+            <h1 style="font-size: 50px;">ARTISTIC JOURNEY</h1>
+            <div class="JOURNEY_desc">
+              <p style="font-size: 24px;">Since 2015, I’ve been dedicated to honing <br>my craft, producing artwork that tells <br>stories and evokes emotion. 
+                My portfolio <br>showcases a mix of commissioned pieces and <br>personal projects, each reflecting my <br>passion for artistry.</p>
+            </div>
+          </div>
+          
+          <div class="shadow-picture">
+            <img src="../Images/About Me Page/Black-Gradient-PNG-File.png" alt="Gradient Picture" style="width: 1473px; height: 280px;">
+          </div>
+
+      </div>
+  <div class="footer">
+    <p>© <span id="year"></span> DomsDraw. All rights reserved. Unauthorized use, reproduction, or distribution of any artworks is prohibited.</p>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  </main>
+</body>
+</html>
